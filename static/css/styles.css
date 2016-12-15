@@ -23,7 +23,7 @@ body {
 
 #section1 {
 	padding-top:50px;
-	height:700px;
+	height:auto;
 	color: #fff; 
 	background-color: #1E88E5;
 	background-size: cover;
@@ -64,7 +64,7 @@ body {
 	border-radius: 60%;
 	height: auto;
 	width: auto;
-	max-width: 40%;
+	max-width: 20%;
 	max-height: 20%;
 	display: block;
 	margin: auto;
