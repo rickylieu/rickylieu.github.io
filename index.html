@@ -7,14 +7,32 @@
 	<link rel="stylesheet" href="static/css/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Ricky's Website </title>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:1100px;color: #fff; background-color: #1E88E5;}
+  </style>
 </head>
 
 <body>
- 	<div id="top">
- 		<span id="name"> Ricky Lieu </span> Projects 
- 	</div>
+<!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+...
+  <ul class="nav navbar-nav">
+    <li><a href="#section1">About Me</a></li>
+    ...
+</nav>
+
+ 
 	<hr>
-	<div id="title">
+	<div id="section1">
 		<img src="static/images/portrait.jpg" id="portrait">
 		<h1> Ricky Lieu </h1>
 		<p> 3rd Year Cognitive Science: Minoring in Computer Science and Business </p>
