@@ -23,11 +23,38 @@ body {
 
 #section1 {
 	padding-top:50px;
-	height:1100px;
+	height:700px;
 	color: #fff; 
 	background-color: #1E88E5;
 	background-size: cover;
-	position: relative;	
+}
+#section2 {
+	padding-top:50px;
+	height:700px;
+	color: #fff; 
+	background-color: #1E88E5;
+	background-size: cover;
+}
+#section3 {
+	padding-top:50px;
+	height:700px;
+	color: #fff; 
+	background-color: #1E88E5;
+	background-size: cover;
+}
+#section4 {
+	padding-top:50px;
+	height:700px;
+	color: #fff; 
+	background-color: #1E88E5;
+	background-size: cover;
+}
+#section5 {
+	padding-top:50px;
+	height:700px;
+	color: #fff; 
+	background-color: #1E88E5;
+	background-size: cover;
 }
 
 
