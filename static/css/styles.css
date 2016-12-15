@@ -19,6 +19,12 @@ p {
 
 }
 
+p.contact {
+	text-align: center;
+	font-size: 250%;
+	color: white;
+}
+
 body {
 	position: relative;
 }
@@ -84,4 +90,6 @@ body {
 #title {
 	padding-top: 10px;
 }
+
+
 
