@@ -14,7 +14,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
-<body>
 <!-- The scrollable area -->
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -67,7 +66,7 @@
 	<div id="section5" class="container-fluid">
 		<h1> SASE </h1>
 	</div>
-	<script>
+<script>
 $(document).ready(function(){
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});   
@@ -93,6 +92,8 @@ $(document).ready(function(){
       });
     }  // End if
   });
+
+  $("#myNavbar").collapse('hide');
 });
 </script>
 
