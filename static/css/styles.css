@@ -7,10 +7,12 @@
 h1 {
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
+	font-size: 60px;
 }
 
 p {
 	text-align: center;
+	font-size: 200%;
 
 }
 
