@@ -38,8 +38,9 @@ body {
 
 #portrait {
 	border-radius: 60%;
-	height: 20%;
-	width: 20%;
+	height: auto;
+	width: auto;
+	max-width: 20%;
 	display: block;
 	margin: auto;
 	padding-top: 10px;
