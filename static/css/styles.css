@@ -17,7 +17,6 @@ p {
 }
 
 body {
-	padding-top: 10px;
 }
 
 
@@ -26,6 +25,8 @@ body {
 	height:1100px;
 	color: #fff; 
 	background-color: #1E88E5;
+	background-size: cover;
+	position: relative;	
 }
 
 
@@ -35,7 +36,7 @@ body {
 	border-radius: 60%;
 	height: auto;
 	width: auto;
-	max-width: 20%;
+	max-width: 30%;
 	max-height: 20%;
 	display: block;
 	margin: auto;
