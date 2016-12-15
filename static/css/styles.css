@@ -10,6 +10,9 @@ h1 {
 	font-size: 60px;
 }
 
+h1.title {
+	font-size: 40px;
+}
 p {
 	text-align: center;
 	font-size: 110%;
@@ -21,35 +24,35 @@ body {
 }
 
 
-#section1 {
+#about_me{
 	padding-top:50px;
 	height:700px;
 	color: #fff; 
 	background-color: #1E88E5;
 	background-size: cover;
 }
-#section2 {
+#skills {
 	padding-top:50px;
 	height:700px;
 	color: #fff; 
 	background-color: #1E88E5;
 	background-size: cover;
 }
-#section3 {
+#work_experience {
 	padding-top:50px;
 	height:700px;
 	color: #fff; 
 	background-color: #1E88E5;
 	background-size: cover;
 }
-#section4 {
+#projects{
 	padding-top:50px;
 	height:700px;
 	color: #fff; 
 	background-color: #1E88E5;
 	background-size: cover;
 }
-#section5 {
+#SASE {
 	padding-top:50px;
 	height:700px;
 	color: #fff; 
