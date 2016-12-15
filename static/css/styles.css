@@ -1,0 +1,42 @@
+/* general */
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+body {
+	padding-top: 10px;
+}
+
+
+#top {
+	margin-left: 10px;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+#top #name {
+	margin-right: 1150px;
+}
+
+/* Portrait */
+
+#portrait {
+	border-radius: 60%;
+	height: 10%;
+	width: 10%;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+}
+
+#title {
+	background-color: #E0E0E0;
+	padding-top: 10px;
+}
+
