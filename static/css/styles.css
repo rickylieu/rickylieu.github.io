@@ -29,6 +29,9 @@ body {
 	position: relative;
 }
 
+.collapsing {
+	transition: height 0.4s;
+}
 
 #about_me{
 	padding-top:50px;
