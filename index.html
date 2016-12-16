@@ -98,6 +98,7 @@ $(document).ready(function(){
 
       // Store hash
       var hash = this.hash;
+      $("#myNavbar").collapse('hide');
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
@@ -107,12 +108,13 @@ $(document).ready(function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
+        
       });
+
     }  // End if
   });
 
-  $(".navbar navbar-inverse navbar-fixed-top").collapse('hide');
-  $(".collapse navbar-collapse").collapse('hide');
+
 });
 </script>
 
