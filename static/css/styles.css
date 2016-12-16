@@ -25,6 +25,14 @@ p.contact {
 	color: white;
 }
 
+p.skills {
+	text-align: left;
+	font-size: 50%;
+	margin-left: 12%;
+	margin-top: 3%;
+	color: white;
+}
+
 body {
 	position: relative;
 }
@@ -94,5 +102,9 @@ body {
 	padding-top: 10px;
 }
 
+/* Glyphicons */
+.glyphicon-envelope {
 
+}
 
+/* Font Awesome */
