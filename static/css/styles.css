@@ -11,7 +11,9 @@ h1 {
 }
 
 h1.title {
-	font-size: 40px;
+	font-size: 700%;
+	color: #999999;
+
 }
 p {
 	text-align: center;
@@ -28,9 +30,26 @@ p.contact {
 p.skills {
 	text-align: left;
 	font-size: 50%;
-	margin-left: 12%;
-	margin-top: 3%;
+	margin-left: 5%;
+	margin-top: 5%;
 	color: white;
+}
+
+#work_title {
+	font-size: 50%;
+}
+
+#work_description {
+	font-size: 35%;
+}
+
+#work_bullets {
+ font-size: 30%;
+ text-indent: -15%;
+ padding-top: 3%;
+ padding-left: 10%;
+ color: white;
+
 }
 
 body {
@@ -41,7 +60,7 @@ body {
 	transition: height 0.4s;
 }
 
-#about_me{
+#about{
 	padding-top:50px;
 	height:700px;
 	color: #fff; 
