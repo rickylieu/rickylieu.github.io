@@ -44,13 +44,12 @@ p.skills {
 }
 
 #work_bullets {
- font-size: 30%;
- text-indent: -15%;
+ font-size: 25%;
  padding-top: 3%;
- padding-left: 10%;
- color: white;
-
+color: white;
+display: inline-block;
 }
+
 
 body {
 	position: relative;
