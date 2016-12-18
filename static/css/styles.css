@@ -44,10 +44,13 @@ p.skills {
 }
 
 #work_bullets {
- font-size: 25%;
- padding-top: 3%;
-color: white;
+
 display: inline-block;
+}
+
+#work_bullet_text {
+  font-size: 25%;
+  text-align: center;
 }
 
 
