@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
@@ -25,20 +25,51 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
-
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.image img {
+    width:100%;
+    vertical-align:top;
+}
+.image:after, .image:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.image:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+}
+.image:before {
+    content: attr(data-content);
+    width:100%;
+    color:#fff;
+    z-index:1;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    text-align:center;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.image:hover:after, .image:hover:before {
+    opacity:1;
 }
 
-.modal {
-  overflow-y: auto;
-}
+
 .modal-open[style] {
 padding-right: 0px !important;
-overflow-y: auto;
-display: block;
 }
 
 
@@ -50,8 +81,12 @@ display: block;
   margin-top: 2%;
   padding: 0;
   text-align: center;
-  background-color: rgba(0, 0, 0, 1);
-      overflow-y: initial !important
+  background-color: rgba(0, 0, 0, 1)
+
+}
+
+.modal-body {
+  overflow-y: auto;
 }
 
 .modal-content {
@@ -59,21 +94,17 @@ display: block;
   min-height: 100%;
   border-radius: 0;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.85)
+    background-color: rgba(0, 0, 0, 1)
 
 }
 
 .progress {
-  width: 40%;
+  width: 100%;
   float: left;
   height: 20px;
   box-shadow: none;
 }
 
-.content {
-  width: 100%;
-  height: 100%;
-}
 
 .progress-bar {
   background-color: #0277BD;
@@ -115,16 +146,34 @@ a:hover, a:active, a:focus {
 }
 
 p {
+  font-size: 80%;
   margin-bottom: 1.5em;
+  margin-top: -1.5em;
+  margin-left: 1em;
+}
+
+b {
+  color: #0277BD;
+}
+
+.popover .popover-title {
+   color: blue;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
 
+h2.project_description {
+  margin: 0;
+}
+
+h4.language {
+  margin: 0;
+}
 ::-webkit-selection {
   color: #fff;
   background: #0277BD;
@@ -150,8 +199,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-main {
   max-width: 1000px;
-  min-height: 300px;
-  margin: 5em auto 5em auto;
+  min-height: 800px;
+  margin: 2em auto 5em auto;
   position: relative;
   background: rgba(0, 0, 0, 0.85);
   overflow: hidden;
