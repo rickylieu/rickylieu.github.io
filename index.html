@@ -266,17 +266,21 @@
 						<img src="images/project_1.png" alt="" /> </div>
 					</div>	
 				</div>
-				<div class="col-sm-6">
-					<div data-content="Placeholder" class="image" style="">
-						<img src="images/project_4.png" style=" " alt=""/> </div>
+			<div class="col-sm-6">
+				<div class="content" href="#project2Modal" data-toggle="modal">
+					<div data-content="SASE Event Tracker" href="#project2Modal" class="image" style="">
+						<img src="images/project2.jpg" style=" " alt=""/> </div>
 					</div>	
+				</div>
 					<div class="row"></div>
 					<br>
 
-							<div class="col-sm-6">
-					<div data-content="Placeholder" class="image" style="">
-						<img src="images/project_4.png" style=" " alt=""/> </div>
+					<div class="col-sm-6">
+					<div class="content" href="#project3Modal" data-toggle="modal">
+					<div data-content="Music Playlist App Redesign" class="image" style="">
+						<img src="images/project3.png" style=" " alt=""/> </div>
 					</div>	
+					</div>
 			
 					<div class="col-sm-6">
 					<div data-content="Placeholder" class="image" style="">
@@ -287,6 +291,82 @@
 	</div>
 </div>
 </div>
+
+<!-- Modal Project 2 -->
+<div class="modal fade" id="project2Modal" role="dialog">
+	<div class="modal-dialog modal-lg">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" style="color: white">&times;</button>
+				<h1 style="color: #0277BD; padding-top: 2%"> <b> SASE Event Tracker </b> </h1>
+												<h3"> HTML, CSS, Javascript, MongoDB </h3> 
+
+							<h2 class="project_description"> <b> <i style="color: #0277BD; text-align: center; "> Inspiration </i> </b> </h2>
+						<h3 style="text-align: left">
+							I was an officer for a UCSD club, SASE, which needed a better way to track our events.  We would lose track of which weeks we had events and what types of events that we had in a single week (social, professional, etc.)  One problem we faced was having too many professional events crammed in a week, which left no space for any other events.  I conceptualized this app with another board member, but ended up implementing it myself after she broke her leg.  </b>  <h3>
+											<h2 class="project_description"> <b> <i style="color: #0277BD; text-align: center; "> Implementation </i> </b> </h2>
+							<h3 style="text-align: left"> 
+							The first part to implement was having events displayed on the web page.  Since UCSD students talk about which "week" it is rather than the actual date, we felt that it would be beneficial to have events listed per week.  We came up with a button for each week, which opened up a list view of events for that week. Then, I added an "Add event page" that included relevant information such as date, week, location, etc.  Another issue that came up was trying to distinguish between different events (social, professional, etc.) so we decided to color code them.  This way we could easily figure out whether we had too many events per week.   </h3> 
+											<h2 class="project_description"> <b> <i style="color: #0277BD; text-align: center; "> Improvement </i> </b> </h2>
+														<h3 style="text-align: left"> 
+														After showing the app to some of the other board members, I received feedback regarding making the app more user friendly.  Some wanted to see a calendar list too, a way to see the most recent added events, and notifications when someone added a new event. </h3>
+						<div id="myCarousel" class="carousel slide" style="width:70%; margin: auto">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active" style="background-color: black"></li>
+    <li data-target="#myCarousel" data-slide-to="1" style="background-color: black"></li>
+    <li data-target="#myCarousel" data-slide-to="2" style="background-color: black"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/sase1.png">
+    </div>
+
+    <div class="item">
+      <img src="images/sase2.png">
+    </div>
+
+    <div class="item">
+      <img src="images/sase3.png">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+						</div>
+			</div>
+
+		</div>
+	</div>		
+</div>
+
+<!-- Modal Project 3 -->
+<div class="modal fade" id="project3Modal" role="dialog">
+	<div class="modal-dialog modal-lg">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" style="color: white">&times;</button>
+				<h1 style="color: #0277BD; padding-top: 2%"> Music Playlist App Redesign </h1>
+				<h3> https://medium.com/playlist-redesign/playlist-management-app-redesign-49561144dc33 </h3>
+			</div>
+		</div>
+	</div>		
+</div>
+
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
@@ -299,9 +379,10 @@
 <!--				<img src="images/cow-event.png" style="width:10%; height:10%" alt=""/> </div>
 				<h1>Deja Moo</h1>
 				<hr class="star-primary"> -->
+				<h1 style="color: #0277BD; padding-top: 2%"> <b> Deja Moo </b> </h1>
+				<h3> HTML, CSS, Javascript, MongoDB, Express.js </h3>
 				<div row>
 					<div class="col-md-4">
-
 						<img src="images/proposalstoryboard.jpg" style="width:75%;height: 10%; margin-top: 10%" alt=""/> 
 					</div>
 					<div class="col-md-8">
@@ -320,7 +401,7 @@
 								<h2 class="project_description"> <b> <i style="color: #0277BD; text-align: center;"> First Iteration</i> </b> </h2>
 							</span>
 							<h3 style="text-align: left">
-								For our first iteration, we started off with a very basic approach: pin generic cows onto a map with the ability to add comments.  However, this would lead to a very bland experience. There was no interaction between different users besides posting and the app was not memorable.  At this point, we were struggling with our own brand image as well as figuring out the best way to allow users to add comments to each cow  <h3>
+								For our first iteration, we started off with a very basic approach: pin generic cows onto a map with the ability to add comments.  However, this would lead to a very bland experience. There was no interaction between different users besides posting and the app was not memorable.  At this point, we were struggling with our own brand image as well as figuring out the best way to allow users to add comments to each cow.  <h3>
 							</div>
 							<div class="col-md-4">
 
@@ -354,8 +435,51 @@
 												Deja Moo is a community powered web app that provides real time updates on events and sales!  From discovering a local festival to gauging lines at Black Friday sales, Deja Moo’s usefulness is only as limited as the consumers’ imaginations.  <h3>
 											</div>
 
+	<div id="DejaMooCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#DejaMooCarousel" data-slide-to="0" class="active" style="background-color: black"></li>
+    <li data-target="#DejaMooCarousel" data-slide-to="1" style="background-color: black"></li>
+    <li data-target="#DejaMooCarousel" data-slide-to="2" style="background-color: black"></li>
+     <li data-target="#DejaMooCarousel" data-slide-to="3" style="background-color: black"></li>
+          <li data-target="#DejaMooCarousel" data-slide-to="4" style="background-color: black"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/dejamoo0.png">
+    </div>
+
+    <div class="item">
+      <img src="images/dejamoo1.png">
+    </div>
+
+    <div class="item">
+      <img src="images/dejamoo2.png">
+    </div>
+    <div class="item">
+      <img src="images/dejamoo3.png">
+    </div>
+    <div class="item">
+      <img src="images/dejamoo4.png">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#DejaMooCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#DejaMooCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 										</div>
 									</div>
+
 
 									<!-- jQuery -->
 									<script src="js/jquery.min.js"></script>
